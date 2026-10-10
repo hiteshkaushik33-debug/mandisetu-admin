@@ -2,15 +2,16 @@
 @import "tailwindcss";
 @import "../public/template/bootstrap.min.css";
 @import "../public/template/style.css";
+@import "./roxodeal.css";
 @theme {
-  --color-navy: #0a3d62;
-  --color-amber: #e67e22;
+  --color-navy: #123e60;
+  --color-amber: #f3b544;
   --color-action: #0066cc;
 }
 :root {
   --background: #f8fafc;
   --foreground: #14161c;
-  --primary: #0a3d62;
+  --primary: #123e60;
   --primary-foreground: #fff;
   --border: #e2e8f0;
   --radius: 0.75rem;
@@ -39,7 +40,7 @@ button:disabled {
   opacity: 0.5;
 }
 a {
-  color: #0a3d62;
+  color: #123e60;
 }
 p {
   color: #6c7178;
@@ -87,9 +88,9 @@ a svg {
   white-space: nowrap;
 }
 .ms-primary {
-  background: linear-gradient(145deg, #f39c12, #e67e22);
+  background: linear-gradient(145deg, #f39c12, #f3b544);
   color: #fff;
-  box-shadow: 0 4px 12px #e67e2222;
+  box-shadow: 0 4px 12px #f3b54422;
 }
 .ms-primary:hover {
   background: #cf6c14;
@@ -98,18 +99,18 @@ a svg {
 .ms-outline {
   border-color: #d4dfe8;
   background: white;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-outline:hover {
   background: #edf4f9;
 }
 .ms-secondary {
-  background: #0a3d62;
+  background: #123e60;
   color: white;
 }
 .ms-ghost {
   background: transparent;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-danger {
   background: #fee2e2;
@@ -126,11 +127,11 @@ a svg {
   transform: translateX(-50%);
   z-index: 3000;
   max-width: min(90vw, 600px);
-  background: #0a3d62;
+  background: #123e60;
   color: #fff;
   padding: 15px 24px;
   border-radius: 12px;
-  box-shadow: 0 10px 40px #0a3d6240;
+  box-shadow: 0 10px 40px #123e6040;
   font-size: 14px;
 }
 .ms-preview-bar {
@@ -138,7 +139,7 @@ a svg {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #0a3d62;
+  background: #123e60;
   z-index: 1500;
   display: flex;
   gap: 22px;
@@ -242,13 +243,13 @@ a svg {
 }
 .ms-sidebar nav a:hover {
   background: #f5f8fa;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-sidebar nav a.active {
   background: #edf4f9;
-  color: #0a3d62;
+  color: #123e60;
   font-weight: 600;
-  box-shadow: inset 3px 0 #e67e22;
+  box-shadow: inset 3px 0 #f3b544;
 }
 .ms-nav-count {
   margin-left: auto;
@@ -282,7 +283,7 @@ a svg {
   margin-bottom: 12px;
 }
 .ms-support > svg {
-  color: #e67e22;
+  color: #f3b544;
   margin-bottom: 10px;
 }
 .ms-support strong {
@@ -318,7 +319,7 @@ a svg {
 }
 .ms-breadcrumb strong {
   font-weight: 500;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-header-actions {
   display: flex;
@@ -339,7 +340,7 @@ a svg {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #e67e22;
+  background: #f3b544;
   position: absolute;
   right: 0;
   top: 0;
@@ -354,7 +355,7 @@ a svg {
   height: 52px;
   border-radius: 14px;
   background: #edf4f9;
-  color: #0a3d62;
+  color: #123e60;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -473,7 +474,7 @@ a svg {
 .ms-stat > strong {
   display: block;
   font-family: var(--font-head);
-  color: #0a3d62;
+  color: #123e60;
   font-size: 29px;
   margin: 8px 0;
 }
@@ -492,7 +493,7 @@ a svg {
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 22px;
-  box-shadow: 0 2px 4px #0a3d6202;
+  box-shadow: 0 2px 4px #123e6002;
 }
 .ms-card-heading {
   display: flex;
@@ -636,7 +637,7 @@ a svg {
   color: #a0abb5;
 }
 .ms-plan-card {
-  background: linear-gradient(135deg, #0a3d62, #12577f);
+  background: linear-gradient(135deg, #123e60, #12577f);
   color: white;
   padding: 24px;
   border-radius: 12px;
@@ -758,7 +759,7 @@ a svg {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  color: #0a3d62;
+  color: #123e60;
   margin: 0 auto 12px;
 }
 .ms-help-card h3 {
@@ -803,7 +804,7 @@ a svg {
   padding: 20px;
   border: 1px solid #e2e8f0;
   border-radius: 10px;
-  box-shadow: 0 10px 30px #0a3d6220;
+  box-shadow: 0 10px 30px #123e6020;
   z-index: 1200;
 }
 .ms-notification-popover p {
@@ -956,7 +957,7 @@ a svg {
 .ms-lead-action > span > strong {
   display: block;
   font-size: 14px;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-lead-action .ms-button {
   font-size: 9px;
@@ -1027,7 +1028,7 @@ a svg {
   padding: 20px;
   border-radius: 8px;
   font-size: 11px;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-document .ms-badge {
   justify-self: start;
@@ -1049,7 +1050,7 @@ a svg {
 }
 .ms-detail-grid strong {
   font-size: 12px;
-  color: #0a3d62;
+  color: #123e60;
 }
 .ms-claim-card h3 {
   font-size: 12px;
@@ -1089,10 +1090,10 @@ a svg {
 .ms-chart-track i {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg, #0a3d62, #1d6fa6);
+  background: linear-gradient(90deg, #123e60, #1d6fa6);
 }
 .ms-utility {
-  background: #0a3d62;
+  background: #123e60;
   color: #c2d4e0;
   padding: 8px 5%;
   font-size: 11px;
@@ -1143,7 +1144,7 @@ a svg {
   min-height: 60vh;
 }
 .ms-public-footer {
-  background: #0a3d62;
+  background: #123e60;
   padding: 45px 5%;
   color: #cad9e3;
 }
@@ -1194,7 +1195,7 @@ a svg {
   transition: box-shadow 0.2s;
 }
 .ms-product-card:hover {
-  box-shadow: 0 8px 28px #0a3d6210;
+  box-shadow: 0 8px 28px #123e6010;
 }
 .ms-product-image {
   height: 190px;
@@ -1224,7 +1225,7 @@ a svg {
   color: #8a99a6;
 }
 .ms-save.selected {
-  color: #e67e22;
+  color: #f3b544;
 }
 .ms-product-body {
   padding: 17px;
@@ -1238,7 +1239,7 @@ a svg {
   margin: 8px 0 12px;
 }
 .ms-product-price {
-  color: #0a3d62;
+  color: #123e60;
   font-weight: 700;
   font-size: 17px;
   margin: 0;
@@ -1367,7 +1368,7 @@ a svg {
 }
 .ms-detail-price {
   font-size: 28px;
-  color: #0a3d62;
+  color: #123e60;
   font-weight: 600;
 }
 .ms-detail-price small {
@@ -1423,7 +1424,7 @@ a svg {
   padding: 26px 22px;
 }
 .ms-pricing-card.featured {
-  border: 2px solid #e67e22;
+  border: 2px solid #f3b544;
 }
 .ms-pricing-card > .ms-badge {
   position: absolute;
@@ -1436,7 +1437,7 @@ a svg {
 }
 .ms-pricing-price {
   font-size: 28px;
-  color: #0a3d62;
+  color: #123e60;
   font-family: var(--font-head);
   font-weight: 600;
 }
@@ -1540,7 +1541,7 @@ a svg {
   padding: 16px;
 }
 .ms-role-choices > button:hover {
-  border-color: #e67e22;
+  border-color: #f3b544;
 }
 .ms-role-choices > button > div {
   flex: 1;
@@ -1562,7 +1563,7 @@ a svg {
 }
 .ms-loading {
   padding: 60px;
-  color: #0a3d62;
+  color: #123e60;
   text-align: center;
 }
 @media (min-width: 1600px) {
@@ -1655,7 +1656,7 @@ a svg {
     display: block;
     background: none;
     border: 0;
-    color: #0a3d62;
+    color: #123e60;
   }
   .ms-close-sidebar {
     position: absolute;
@@ -1668,7 +1669,7 @@ a svg {
   .ms-sidebar-overlay {
     position: fixed;
     inset: 0;
-    background: #0a3d6255;
+    background: #123e6055;
     z-index: 1001;
     border: 0;
   }
