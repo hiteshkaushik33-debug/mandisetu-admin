@@ -216,7 +216,7 @@ export function AdminDashboard() {
             <div className="ms-help-icon">
               <TrendingUp />
             </div>
-            <h3>Grow together with MandiSetu</h3>
+            <h3>Grow together with Roxodeal</h3>
             <p>Direct connections. Relevant opportunities. Better business.</p>
             <Link href={appHref("buyer", "/suppliers")}>
               Explore the marketplace →
