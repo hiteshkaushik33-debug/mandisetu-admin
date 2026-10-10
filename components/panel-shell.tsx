@@ -184,7 +184,7 @@ export function PanelShell({
         </div>
         <main className="ms-panel-content">{children}</main>
         <footer className="ms-panel-footer">
-          © 2026 MandiSetu <span>Built for serious trade.</span>
+          © 2026 Roxodeal <span>Built for serious trade.</span>
         </footer>
       </div>
     </div>
