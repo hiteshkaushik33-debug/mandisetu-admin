@@ -7,7 +7,7 @@ export default async function Page({
 }) {
   const { path = [] } = await params;
   return (
-    <Suspense fallback={<div className="ms-loading">Loading MandiSetu…</div>}>
+    <Suspense fallback={<div className="ms-loading">Loading Roxodeal…</div>}>
       <AdminPanel path={path} />
     </Suspense>
   );
