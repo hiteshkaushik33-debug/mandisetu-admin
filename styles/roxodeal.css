@@ -1,0 +1,27 @@
+:root { --background: #edf5fb; --primary: #123e60; --border: #dce8ef; --color-navy: #123e60; --color-amber: #f3b544; }
+.brand.rx-brand { display: inline-flex; align-items: center; gap: 9px; color: #123e60; font-weight: 800; letter-spacing: -0.7px; }
+.brand.rx-brand img { width: 38px; height: 38px; object-fit: contain; flex-shrink: 0; }
+.ms-panel { background: #edf5fb; }
+.ms-panel .ms-sidebar { background: #123e60; border-right: 0; }
+.ms-panel .ms-sidebar .rx-brand { color: white; }
+.ms-panel .ms-workspace-label { color: #afc7d9; }
+.ms-panel .ms-sidebar nav a { color: #d0e0ec; }
+.ms-panel .ms-sidebar nav a:hover { background: #ffffff12; color: white; }
+.ms-panel .ms-sidebar nav a.active { background: #f3b544; color: #123e60; box-shadow: none; font-weight: 700; }
+.ms-panel .ms-sidebar-bottom > a, .ms-panel .ms-sidebar-bottom > button { color: #d0e0ec; }
+.ms-panel .ms-support { background: #ffffff0a; border-color: #ffffff20; color: white; }
+.ms-panel .ms-support a { color: #f3b544; }
+.ms-panel .ms-support > svg { color: #f3b544; }
+.ms-panel .ms-panel-header { border-bottom: 3px solid #f3b544; }
+.ms-panel .ms-preview-notice { background: #e3eff8; }
+.ms-panel .ms-card, .ms-panel .ms-stat { border: 1px solid #dce8ef; border-radius: 8px; box-shadow: 0 3px 12px #123e6004; }
+.ms-panel .ms-stat-icon { background: #edf5fb; color: #123e60; }
+.ms-panel .ms-page-heading h1 { color: #123e60; letter-spacing: -0.6px; }
+.ms-panel .ms-panel-footer { border-color: #dce8ef; color: #5a758a; }
+.ms-auth.ms-auth { min-height: 100vh; display: flex; padding: 48px max(24px, 8vw); background: linear-gradient(90deg, #edf5fbf5 0%, #edf5fbdf 38%, #123e6033 100%), url('/images/factory-hall.png') center / cover; align-items: center; }
+.ms-auth .ms-auth-card { background: white; width: min(440px, 100%); border-top: 4px solid #f3b544; box-shadow: 0 16px 48px #123e601a; }
+.ms-auth .rx-brand { font-size: 26px; margin-bottom: 28px; }
+.ms-auth .rx-workspace-eyebrow { display: block; color: #637f95; font-size: 10px; font-weight: 700; letter-spacing: 2px; margin-bottom: 10px; }
+.ms-auth .ms-auth-card h1 { color: #123e60; font-size: 24px; }
+.ms-auth .ms-auth-card .ms-primary { background: #f3b544; color: #123e60; border-color: #f3b544; }
+@media(max-width: 768px) { .ms-panel .ms-close-sidebar { color: white; } .ms-auth.ms-auth { padding: 24px; background-position: 60% center; } }
